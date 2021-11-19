@@ -29,10 +29,17 @@ Displaying 9 stars
 *********
 ```
 
+3. [printNumber.asm]
+```
+Please, enter a number: 7
+You have entered: 7
+7
+```
 
 
 ---
+[printNumber.asm]: ./instructions/printNumber.asm
+[regs.asm]: ./instructions/regs.asm
+[hello.asm]: ./instructions/hello.asm
 [ru]: README-ru.md
 [en]: README.md
-[hello.asm]: hello.asm
-[regs.asm]: regs.asm
