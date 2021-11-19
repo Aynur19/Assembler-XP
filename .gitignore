@@ -1,4 +1,2 @@
-/instructions/
+*.asm-exe
 
-!*.asm
-!*.md

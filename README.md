@@ -1,23 +1,38 @@
 # Assembly Language Learning Project
 [Read in Russian][ru]
 
-To quickly build a script in assembly language, it is recommended to run a **Makefile**. For example:
-
+## Example of Instruction Building and Running
+Build
 ```
-$ make source=hello
+$ make source=hello path=./instructions
 ```
 
-Note:
-1. Instead of hello, use the name of the **.asm** file without the extension itself
-2. The specified file must be located in the folder with the same name, and the folder itself must be in the same directory as the **Makefile**
-
-Next, execute the file obtained during the build. For example:
-
+Execute:
 ```
-$ ./hello/hello
+$ ./hello/hello.asm-exe
 ```
+
+Result:
+```
+Hello, World!
+```
+
+## Results of the instructions
+1. [hello.asm]
+```
+Hello, World!
+```
+
+2. [regs.asm]
+```
+Displaying 9 stars
+*********
+```
+---
 
 
 ---
 [ru]: README-ru.md
 [en]: README.md
+[hello.asm]: hello.asm
+[regs.asm]: regs.asm
