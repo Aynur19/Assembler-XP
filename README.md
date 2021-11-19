@@ -3,7 +3,9 @@
 
 To quickly build a script in assembly language, it is recommended to run a **Makefile**. For example:
 
-`$ make source = hello`
+```
+$ make source=hello
+```
 
 Note:
 1. Instead of hello, use the name of the **.asm** file without the extension itself
@@ -11,7 +13,9 @@ Note:
 
 Next, execute the file obtained during the build. For example:
 
-`$ ./hello/hello`
+```
+$ ./hello/hello
+```
 
 
 ---
